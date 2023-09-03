@@ -1,4 +1,4 @@
-# TWRP device tree for Lenovo Smart Tab M10 FHD Plus (TB-X606FA/FX)
+# TWRP device tree for Lenovo Smart Tab M10 FHD Plus (TB-X606F)
 
 ## Release info
 This is an unofficial build.  Install at your own risk.
@@ -13,9 +13,9 @@ Support Thread on [XDA](https://forum.xda-developers.com/t/4222887/).
 
 ### About Device
 
-![Lenovo Smart Tab M10 HD](https://download.lenovo.com/images/ProdImageSmart/amazon_alexa.jpg "Lenovo Smart Tab M10 FHD Plus (TB-X606FA)")
+![Lenovo Smart Tab M10 HD](https://download.lenovo.com/images/ProdImageSmart/amazon_alexa.jpg "Lenovo Smart Tab M10 FHD Plus (TB-X606F)")
 
-Recovery Device Tree for Lenovo Smart Tab M10 FHD Plus wifi (TB-X606FA)
+Recovery Device Tree for Lenovo Smart Tab M10 FHD Plus wifi (TB-X606F)
 =======================================================================
 Component   | Specs
 -------:|:-------------------------
@@ -38,8 +38,7 @@ Release Date | August 2020
 
 
 ## To build
-If building for the TB-X606F, change BOARD_KERNEL_IMAGE_NAME in BoardConfig.mk before building.
-```
+
 . build/envsetup.sh
 lunch twrp_X606FA-eng
 mka recoveryimage
