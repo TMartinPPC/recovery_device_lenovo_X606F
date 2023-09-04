@@ -38,7 +38,7 @@ Release Date | August 2020
 
 
 ## To build
-
+```
 . build/envsetup.sh
 lunch twrp_X606FA-eng
 mka recoveryimage
